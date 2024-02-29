@@ -1,0 +1,50 @@
+/* Reset styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font stack */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Consolas, 'Courier New', monospace; /* Updated font stack */
+}
+
+/* Custom styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+/* Global font styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', Arial, sans-serif; /* Updated font stack */
+}
+
+p {
+  line-height: 1.6; /* Increased line height for better readability */
+}
+
+/* Custom code block styles */
+code {
+  font-family: 'Fira Code', 'Courier New', monospace; /* Updated font stack */
+  font-size: 14px; /* Increased code font size */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text color */
+  padding: 5px 10px; /* Added padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+pre {
+  overflow-x: auto; /* Added horizontal scroll for long code blocks */
+}
+
+/* Custom link styles */
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none; /* Removed underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
